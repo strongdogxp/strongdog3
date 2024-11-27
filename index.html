@@ -34,7 +34,6 @@
     // Get the current hostname
     const currentHostname = window.location.hostname;
 
-    // Check if the hostname exists in siteMapping
     if (siteMapping[currentHostname]) {
       // Redirect to the first mapping by default
       window.location.href = siteMapping[currentHostname][0];
