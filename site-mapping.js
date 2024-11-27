@@ -14,9 +14,6 @@ export const siteMapping = {
   "strongdog-1.vercel.app": ["https://strongdog2.vercel.app", "https://strongdog3.vercel.app"],
   "strongdog2.vercel.app": ["https://strongdog-1.vercel.app", "https://strongdog3.vercel.app"],
   "strongdog3.vercel.app": ["https://strongdog-1.vercel.app", "https://strongdog2.vercel.app"],
-  "strongdog.onrender.com": ["https://strongdog2.onrender.com", "https://strongdog3.onrender.com"],
-  "strongdog2.onrender.com": ["https://strongdog.onrender.com", "https://strongdog3.onrender.com"],
-  "strongdog3.onrender.com": ["https://strongdog.onrender.com", "https://strongdog2.onrender.com"],
   "127.0.0.1": ["http://127.0.0.1:8080/strongdog2", "http://127.0.0.1:8080/strongdog3"],
   "127.0.0.1:8080/strongdog2": ["127.0.0.1", "http://127.0.0.1:8080/strongdog3"],
   "127.0.0.1:8080/strongdog3": ["127.0.0.1", "http://127.0.0.1:8080/strongdog2"],
@@ -26,4 +23,7 @@ export const siteMapping = {
   "mathcord.com": ["https://mathcord.com/strongdog2", "https://mathcord.com/strongdog3"],
   "mathcord.com/strongdog2": ["mathcord.com", "https://mathcord.com/strongdog3"],
   "mathcord.com/strongdog3": ["mathcord.com", "https://mathcord.com/strongdog2"],
+  "strongdogxp.github.io": ["https://strongdogxp.github.io/strongdog2", "https://strongdogxp.github.io/strongdog3"],
+  "strongdogxp.github.io/strongdog2": ["https://strongdogxp.github.io", "https://strongdogxp.github.io/strongdog3"],
+  "strongdogxp.github.io/strongdog3": ["https://strongdogxp.github.io", "https://strongdogxp.github.io/strongdog2"],
 };
